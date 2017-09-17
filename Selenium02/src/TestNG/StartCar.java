@@ -3,29 +3,29 @@ package TestNG;
 import org.testng.annotations.Test;
 
 public class StartCar {
-	@Test
+	@Test(priority=0)
     public void startEngine() {
     	System.out.println("EngineStart");
 		
 	}
-	@Test
+	@Test(priority=1)
     public void putFirstGear() {
     	
     	System.out.println("putFirstGear");
 		
 	}
-	@Test
+	@Test(priority=2)
  public void putSecondGear() {
     	
     	System.out.println("putSecondGear");
 		
 	}
-	@Test
+	@Test(priority=3)
  public void putThirdGear() {
  	
  	System.out.println("putThirdGear");
 		
 	}
-
+			
     
 }
