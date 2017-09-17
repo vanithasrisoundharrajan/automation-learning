@@ -14,7 +14,7 @@ public class OpenGoogle {
 		
 		
 	}
-	@ Test(priority=2)
+	@ Test(enabled=false)
 	public void openBing(){
 		System.setProperty("webdriver.chrome.driver","D:/eclipse/selenium/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
