@@ -1,10 +1,10 @@
 package TestNG;
 
-import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
 
 public class TimeCalculation {
 	WebDriver driver;
@@ -18,6 +18,7 @@ public class TimeCalculation {
       driver=new ChromeDriver();
       driver.manage().window().maximize(); 
 	}
+	
 	@Test
 	public void openGoogle (){
 		driver.get("http://www.google.co.in");
@@ -40,4 +41,3 @@ public class TimeCalculation {
 
 }
 }
-
