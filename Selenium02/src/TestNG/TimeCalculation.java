@@ -16,7 +16,7 @@ public class TimeCalculation {
 	starttime=System.currentTimeMillis();
       System.setProperty("webdriver.chrome.driver","D:/eclipse/selenium/chromedriver.exe");
       driver=new ChromeDriver();
-      //driver.manage().window().maximize(); 
+      driver.manage().window().maximize(); 
 	}
 	
 	@Test
